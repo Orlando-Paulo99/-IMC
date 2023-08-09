@@ -1,0 +1,62 @@
+.navbar{
+    text-align: center;
+    background-color:aqua;
+   
+    width: 700px;
+    right: -200px;
+    position:relative;
+    height:50px
+}
+
+.container{
+    
+       
+    text-align: center;
+    background-color: aqua;
+    width: 300px;
+    margin: 5px auto;
+    border-radius: 10%;
+    height: 350px;
+      
+}
+
+h5{
+    position: relative;
+    right: 79px;
+}
+
+form{
+    position: relative;
+    top: 20px;
+    margin: 20px;
+    
+}
+
+input{
+    height: 20px;
+    
+}
+body{
+    background-color: black;
+}
+
+label{
+    font-size:large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   position: relative;
+   left: -55px;
+}
+.btn{
+    text-transform:uppercase;
+    margin: 30px auto;
+    background: black;
+    border-radius: 10px;
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    color: aqua;
+    left: -4    px;
+    position: relative;
+
+
+}

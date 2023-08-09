@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Calculadora de IMC</h1>
+    </div>
+    <br>
+    <div class="container" id="tipsForm">
+        <form action="" >
+            <label for="">Peso</label><br>
+            <input type="text" id="peso"  placeholder="Ex:87" >
+            <br>
+            <br>
+            <label for="">Altura</label>   <br> 
+            <input type="text" id="altura" required placeholder="Ex:1.47"><br>
+        </form>
+        <br>
+        <div id="totalZip">
+            Calculo do imc:
+             <span id="ressimc">0.00</span><br>
+          
+            <span id="situ">Situação:</span>
+        </div>
+        <input class="btn" type="submit" onclick="calcular()" value="calcular">
+                        
+    </div>
+   
+   
+    <script src="script.js"></script>
+    
+</body>
+</html>
